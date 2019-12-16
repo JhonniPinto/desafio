@@ -1,0 +1,61 @@
+.popOver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 12;
+}
+
+.popOver-modal {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    border: 0.5px solid #e84118;
+    border-radius: 10px;
+    transform: translate(10px, 10px);
+    padding: 10px;
+    z-index: 12;
+}
+
+.popOver-modal div {
+    display: flex;
+    flex-direction: column;
+}
+
+.popOver-modal label {
+    font-weight: 700;
+}
+
+.popOver-modal input, 
+.popOver-modal textarea {
+    font-size: 1.1rem;
+    outline: none;
+    border: 0px;
+    background-color: rgba(204, 204, 204, 0.15);
+    border-radius: 3px;
+}
+
+.popOver-modal button {
+    font-size: 1rem;
+    background-color: #74b9ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 10px 0 0;
+    padding: 3px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.popOver-modal button:last-child {
+    background-color: #e84118;
+    margin-left: 10px;
+}
+
+.popOver-modal button:hover {
+    opacity: 1;
+}

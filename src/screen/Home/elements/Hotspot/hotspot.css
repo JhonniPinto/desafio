@@ -1,0 +1,48 @@
+.hotspot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 0.5px solid #e84118;
+    z-index: 10;
+}
+
+.hotspot-icon {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(232, 65, 24, 0.9);
+    border-radius: 50%;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.hotspot-icon:hover {
+    background-color: rgba(232, 65, 24, 0.5);
+    z-index: 10;
+}
+
+.hotspot-instruction {
+    position: absolute;
+    text-align: justify;
+    color: #000;
+    display: none;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #e84118;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: initial;
+    font-weight: initial;
+    z-index: 15;
+}
+
+.hotspot:hover .hotspot-instruction {
+    display: block;
+    z-index: 15;
+}
+

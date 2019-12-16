@@ -1,0 +1,25 @@
+.table {
+    border-spacing: 0;
+    width: 300px;
+    z-index: 0;
+}
+
+.table th {
+    background-color: #74b9ffcc;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.table td {
+    padding: 0 5px;
+}
+
+.table td button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+
+}
